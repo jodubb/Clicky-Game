@@ -13,7 +13,8 @@ import Cartoons from "./Cartoons";
     state = {
       Cartoons,
       clickedCartoons: [],
-      score: 0
+      score: 0,
+      goal: 12,
     };
 
     // when a card is clicked, its taken out of the array
@@ -39,7 +40,7 @@ import Cartoons from "./Cartoons";
     } else {
     this.setState(
       {
-        Cartoon: this.state.Cartoon.sort(function (a, b) {
+        Cartoon: this.state.Cartoons.sort(function (a, b) {
           return 0.5 - Math.random();
         }),
         clickedCartoons: this.state.clickedCartoons.concat(
@@ -53,7 +54,7 @@ import Cartoons from "./Cartoons";
         if (this.state.score === 12){
           alert("Hooray! You're a 90s kid!");
       this.setState({
-        Cartoons: this.state.fish.sort(function(a, b){
+        Cartoons: this.state.cartoons.sort(function(a, b){
           return 0.5 - Math.random();
         }),
         clickedCartoons: [],
@@ -82,7 +83,7 @@ import Cartoons from "./Cartoons";
             ))}
           </div>
   
-          <Cartoons />
+          {/* <Cartoons /> */}
         </div>
       );
     }

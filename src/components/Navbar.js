@@ -1,7 +1,7 @@
 // after installing React, here imports React into navbar 
 import React from "react";
 import "../components/Navbar.css";
-export default function Navbar() {
+export default function Navbar(props) {
     return (
         <div>
             <nav className="navbar">
@@ -15,7 +15,7 @@ export default function Navbar() {
             </nav>
 
             <nav className= "navbar">
-                <span className="score">Score: {this.props.score} </span>
+                <span className="score">Score: {props.score} </span>
                
             </nav>
 
