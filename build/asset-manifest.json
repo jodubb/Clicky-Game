@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c12c2d2.chunk.css",
+    "main.js": "/static/js/main.9c517b5c.chunk.js",
+    "main.js.map": "/static/js/main.9c517b5c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3622c1c98db5972d9cc1a560f60df15d.js": "/precache-manifest.3622c1c98db5972d9cc1a560f60df15d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5c12c2d2.chunk.css.map": "/static/css/main.5c12c2d2.chunk.css.map",
+    "static/media/Jumbotron.css": "/static/media/90scartoons2.fb9c85aa.jpg",
+    "static/media/Simpsons.jpg": "/static/media/Simpsons.5f3c35d7.jpg",
+    "static/media/beavus.jpg": "/static/media/beavus.052a3be1.jpg",
+    "static/media/couragedog.jpg": "/static/media/couragedog.6f696c5f.jpg",
+    "static/media/dexter.jpg": "/static/media/dexter.d996c2c6.jpg",
+    "static/media/doug.jpg": "/static/media/doug.fc06ccb0.jpg",
+    "static/media/edds2.jpg": "/static/media/edds2.70202f84.jpg",
+    "static/media/flinstones.jpg": "/static/media/flinstones.2b239d4c.jpg",
+    "static/media/hey_arnold.jpg": "/static/media/hey_arnold.aa19f2c2.jpg",
+    "static/media/jetsons.jpg": "/static/media/jetsons.bb6684ed.jpg",
+    "static/media/recess2.jpg": "/static/media/recess2.9e16d47f.jpg",
+    "static/media/rugrats.jpg": "/static/media/rugrats.978d332c.jpg"
+  }
+}
